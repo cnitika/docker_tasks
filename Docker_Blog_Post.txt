@@ -1,0 +1,18 @@
+# Docker Tasks Tutorial
+
+This ZIP contains Dockerized setups for:
+
+1. **Linear Regression** - Simple ML model in Python inside Docker.
+2. **Flask App** - A lightweight Python Flask web app.
+3. **Menu CLI** - A terminal-based interactive Python app.
+4. **Docker-in-Docker** - Running Docker inside a Docker container.
+5. **Firefox GUI** - Firefox browser in a Docker container with VNC.
+6. **VLC GUI** - VLC Media Player in a Docker container with GUI.
+7. **Apache Server** - Static website served via Apache inside Docker.
+
+To build and run any container:
+```bash
+cd task-folder-name
+docker build -t task-name .
+docker run -it --rm -p some-port:port task-name
+```
